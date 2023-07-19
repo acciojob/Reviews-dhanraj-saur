@@ -1,12 +1,59 @@
-h1 {
-    color: #27aedb;
+.review {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-    }
-    
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+#review-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.person-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.job {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.info {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-container button:hover {
+    background-color: #0056b3;
+}
+
+.btn-container .random-btn {
+    background-color: #ff5722;
+}
+
+.btn-container .random-btn:hover {
+    background-color: #e5470e;
 }
